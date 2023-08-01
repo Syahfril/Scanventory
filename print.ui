@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1062</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(214, 228, 229);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="3" colspan="2">
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(214, 228, 229);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QComboBox" name="filterTime">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+selection-background-color: rgb(255, 77, 42);
+border-color: rgb(255, 255, 255);
+alternate-background-color: rgb(255, 77, 42);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="itemTable">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="printButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton
+{
+  
+	background-color: rgb(214, 228, 229);
+
+	color: rgb(73, 113, 116);
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton:hover
+{
+   
+	background-color: rgb(255, 77, 42);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Print</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="deleteButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton
+{
+  
+	background-color: rgb(214, 228, 229);
+
+	color: rgb(73, 113, 116);
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton:hover
+{
+   
+	background-color: rgb(255, 77, 42);
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Hapus</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(239, 245, 245);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/newPrefix/Mask group.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>C:/Users/ACER/Downloads/bulubulu/Mask aasagroup.png</pixmap>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="detectButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+  
+	background-color: rgb(214, 228, 229);
+
+	color: rgb(73, 113, 116);
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton:hover
+{
+   
+	background-color: rgb(255, 77, 42);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Deteksi</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+  
+	background-color: rgb(214, 228, 229);
+
+	color: rgb(73, 113, 116);
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton:hover
+{
+   
+	background-color: rgb(255, 77, 42);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Print</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="exitButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+  
+	background-color: rgb(214, 228, 229);
+
+	color: rgb(73, 113, 116);
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton:hover
+{
+   
+	background-color: rgb(255, 77, 42);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Keluar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelID">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(9, 33, 51);</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="asset.qrc"/>
+ </resources>
+ <connections/>
+</ui>

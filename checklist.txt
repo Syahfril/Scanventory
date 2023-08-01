@@ -1,0 +1,19 @@
+1. Tambahkan referensi alasan kenapa lebih menggunakan YOLO V3 dari pada V5
+9. Alasan kenapa pakai YOLO harus dituliskan
+10. Penjelasan proses perhitungan UEQ
+7. Pengujian kenapa pakai UEQ harus ada alasan dan referensinya///
+11. Tabel perhitungan dan grafik hasil pengujian harus dijelaskan juga, jangan hanya ditampilkan saja///
+12. Ceritakan kesimpulan kelebihan dan kekurangan dari pengujian.
+14. ERD diperbaiki kardinalitasnya (checked)
+15. Perbaiki saran
+16. Sesuaikan format tata tulis buku
+17. Samakan jumlah kesimpulan dengan rumusan masalah dan sesuaikan urutannya
+
+2. Data harus spesifik dari barang toko lima surabaya | Data barang-barang yang ada di toko lima harus didaftar
+3. Survey harus diisi oleh orang dari toko lima surabaya
+8. Jumlah responden minimal 30 orang dan harus melibatkan toko lima surabaya
+
+4. Penjelasan tentang otomatis di sistemnya yang harusnya tanpa ada campur tangan manusia
+5. Pembagian user dan membedakan hak aksesnya | User harus bisa lebih dari satu (Owner, Penjaga Toko)
+6. UI font diperbesar, filed diperbesar dan jangan hitam
+13. Ditambahkan filter di tampilan laporan (tanggal atau periode harian, bulanan atau tahunan, user)
